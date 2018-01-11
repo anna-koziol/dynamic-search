@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+* {
+    margin: 0 auto;
+}
+
+.parent {
+    width: 100vw;
+    border: 1px solid silver;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.name {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#search-button {
+    width: 20vw;
+    height: 4vh;
+    padding: 10px;
+    margin: 2vw;
+    margin-left: 40vw;
+    font-size: 1em;
+    border: #dedede 1px solid;
+    border-radius: 2px;
+    font-family: "Titillium Web";
+    line-height: 1.42857143;
+}
+
+#search-button:active {
+    border: rgb(51, 202, 150) 1px solid;
+}
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#search-button:focus {
+    border: rgba(51, 202, 149, 0.57) 1px solid;
+    /*position: fixed;*/
+}
+
+.category {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(20, 94, 67);
+    padding: 10px;
+}
+
+#test {
+    background-color: rgba(51, 202, 149, 0.57);
+    height: 0px;
+}
+
+.link {
+    padding-top: 15px;
+    font-style: oblique;
+}
